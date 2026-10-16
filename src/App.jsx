@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import StagiaireList from './components/StagiaireList';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div >
+      <header >
         Marhba Bikom f M204
       </header>
+      <StagiaireList />
     </div>
   );
 }
